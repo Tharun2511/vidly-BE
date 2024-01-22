@@ -57,7 +57,6 @@ function validateUser(user) {
       .max(255)
       .required()
   };
-
   return Joi.validate(user, schema);
 }
 
