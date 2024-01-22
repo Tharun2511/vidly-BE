@@ -61,7 +61,6 @@ describe('/api/returns', () => {
     token = '';
 
     const res = await exec();
-
     expect(res.status).toBe(401);
   });
 
